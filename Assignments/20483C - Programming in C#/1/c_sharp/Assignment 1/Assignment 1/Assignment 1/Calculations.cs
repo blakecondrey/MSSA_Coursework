@@ -8,7 +8,7 @@ namespace Assignment_1
 {
     class Calculations
     {
-        public static void Multiply2Values()
+        public void Multiply2Values()
         {
             try {
                 Console.WriteLine("Give me any number greater than 0.");
@@ -24,7 +24,7 @@ namespace Assignment_1
             }
 
         }
-        public static void Divide2Values()
+        public void Divide2Values()
         {
             try {
                 Console.WriteLine("Give me any number.");
@@ -40,7 +40,7 @@ namespace Assignment_1
             }
 
         }
-        public static void Compare2Values()
+        public void Compare2Values()
         {
             Console.WriteLine("Give me any number.");
             float compare1 = float.Parse(Console.ReadLine());
@@ -61,7 +61,7 @@ namespace Assignment_1
                 Console.WriteLine($"{compare2} is less than {compare1}.");
             }
         }
-        public static void EvenOrOdd()
+        public void EvenOrOdd()
         {
             Console.WriteLine("Give me any integer.");
             int num = int.Parse(Console.ReadLine());

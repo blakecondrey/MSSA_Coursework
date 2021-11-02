@@ -7,7 +7,7 @@ namespace Assignment_1
 {
     public class NumberGame
     {
-        public static void NumberGuesser()
+        public void NumberGuesser()
         {
             Random random = new Random();
             int guess = 0;
@@ -70,7 +70,7 @@ namespace Assignment_1
             
         }
 
-        public static bool PrimeNumberCheck()
+        public bool PrimeNumberCheck()
         {
             try
             {

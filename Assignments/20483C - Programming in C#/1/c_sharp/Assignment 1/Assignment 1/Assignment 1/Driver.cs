@@ -5,6 +5,11 @@ namespace Assignment_1
     {
         public void RunProgram()
         {
+            Employee employee = new Employee();
+            Student student = new Student();
+            Calculations calculations = new Calculations();
+            NumberGame numGame = new NumberGame();
+
             bool flag = false;
             do
             {
@@ -26,42 +31,42 @@ namespace Assignment_1
                 {
                     case 1:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Employee.EmployeeIncome();
+                        employee.EmployeeIncome();
                         flag = true;
                         break;
                     case 2:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Student.PassOrFail();
+                        student.PassOrFail();
                         flag = true;
                         break;
                     case 3:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Calculations.Multiply2Values();
+                        calculations.Multiply2Values();
                         flag = true;
                         break;
                     case 4:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Calculations.Divide2Values();
+                        calculations.Divide2Values();
                         flag = true;
                         break;
                     case 5:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Calculations.Compare2Values();
+                        calculations.Compare2Values();
                         flag = true;
                         break;
                     case 6:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        Calculations.EvenOrOdd();
+                        calculations.EvenOrOdd();
                         flag = true;
                         break;
                     case 7:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        NumberGame.NumberGuesser();
+                        numGame.NumberGuesser();
                         flag = true;
                         break;
                     case 8:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
-                        NumberGame.PrimeNumberCheck();
+                        numGame.PrimeNumberCheck();
                         flag = true;
                         break;
                     default:
