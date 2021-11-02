@@ -9,6 +9,7 @@ namespace Assignment_1
             Student student = new Student();
             Calculations calculations = new Calculations();
             NumberGame numGame = new NumberGame();
+            Game game = new Game();
 
             bool flag = false;
             do
@@ -22,7 +23,9 @@ namespace Assignment_1
                 Console.WriteLine("6: Determine if a number is odd or even.");
                 Console.WriteLine("7: Number Guesser");
                 Console.WriteLine("8: Prime Number Checker");
-                Console.WriteLine("9: Exit");
+                Console.WriteLine("9: Factorial");
+                Console.WriteLine("10: Rock Paper Scissors");
+                Console.WriteLine("11: Get Season");
 
                 string optionStr = Console.ReadLine();
                 int option = int.Parse(optionStr);
@@ -67,6 +70,21 @@ namespace Assignment_1
                     case 8:
                         Console.WriteLine("You have chosen option {0}", option, "\n");
                         numGame.PrimeNumberCheck();
+                        flag = true;
+                        break;
+                    case 9:
+                        Console.WriteLine("You have chosen option {0}", option, "\n");
+                        game.Factorial();
+                        flag = true;
+                        break;
+                    case 10:
+                        Console.WriteLine("You have chosen option {0}", option, "\n");
+                        game.RockPaperScissors();
+                        flag = true;
+                        break;
+                    case 11:
+                        Console.WriteLine("You have chosen option {0}", option, "\n");
+                        game.GetSeason();
                         flag = true;
                         break;
                     default:
