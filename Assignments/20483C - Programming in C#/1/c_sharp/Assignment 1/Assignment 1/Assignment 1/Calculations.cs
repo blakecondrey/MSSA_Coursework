@@ -12,10 +12,10 @@ namespace Assignment_1
         {
             try {
                 Console.WriteLine("Give me any number greater than 0.");
-                float numOne = float.Parse(Console.ReadLine());
+                int numOne = int.Parse(Console.ReadLine());
                 Console.WriteLine("Give me any number to multiply it with except for zero");
-                float numTwo = float.Parse(Console.ReadLine());
-                float result = numOne * numTwo;
+                int numTwo = int.Parse(Console.ReadLine());
+                int result = numOne * numTwo;
                 Console.WriteLine($"{numOne} x {numTwo} = {result}", result);
 
             }
@@ -28,10 +28,10 @@ namespace Assignment_1
         {
             try {
                 Console.WriteLine("Give me any number.");
-                float numOne = float.Parse(Console.ReadLine());
+                int numOne = int.Parse(Console.ReadLine());
                 Console.WriteLine("Give me any number to divide by except for zero");
-                float numTwo = float.Parse(Console.ReadLine());
-                float result = numOne / numTwo;
+                int numTwo = int.Parse(Console.ReadLine());
+                int result = numOne / numTwo;
                 Console.WriteLine($"{numOne} / {numTwo} = {result}", result);
             }
 
