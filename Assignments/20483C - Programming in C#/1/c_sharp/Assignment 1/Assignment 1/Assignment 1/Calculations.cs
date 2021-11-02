@@ -32,7 +32,7 @@ namespace Assignment_1
                 Console.WriteLine("Give me any number to divide by except for zero");
                 float numTwo = float.Parse(Console.ReadLine());
                 float result = numOne / numTwo;
-                Console.WriteLine($"{numOne} / {numnTwo} = {result}", result);
+                Console.WriteLine($"{numOne} / {numTwo} = {result}", result);
             }
 
             catch (DivideByZeroException e) {
@@ -68,11 +68,11 @@ namespace Assignment_1
 
             if (num % 2 == 1)
             {
-                Console.WriteLine($"{number1} is an odd number");
+                Console.WriteLine($"{num} is an odd number");
             }
             else
             {
-                Console.WriteLine($"{number1} is an even number");
+                Console.WriteLine($"{num} is an even number");
             }
         }
     }

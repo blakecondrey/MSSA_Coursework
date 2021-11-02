@@ -9,15 +9,16 @@ namespace Assignment_1
             bool flag = false;
             do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Please input an option number (1-6), 7 to exit.");
-                Console.WriteLine("1: Calculate the income of an employee.");
+                Console.WriteLine("\n Please input an option number (1-8), 9 to exit.");
+                Console.WriteLine("1: Calculate employee income.");
                 Console.WriteLine("2: Calculate if you passed or failed a class.");
                 Console.WriteLine("3: Multiply two values.");
-                Console.WriteLine("4: Divide one value by another.");
-                Console.WriteLine("5: Compare two values and return the biggest value.");
+                Console.WriteLine("4: Divide two values.");
+                Console.WriteLine("5: Compare two values.");
                 Console.WriteLine("6: Determine if a number is odd or even.");
-                Console.WriteLine("7: Exit");
+                Console.WriteLine("7: Number Guesser");
+                Console.WriteLine("8: Prime Number Checker");
+                Console.WriteLine("9: Exit");
 
                 string optionStr = Console.ReadLine();
                 int option = int.Parse(optionStr);
@@ -55,11 +56,18 @@ namespace Assignment_1
                         flag = true;
                         break;
                     case 7:
-                        Console.WriteLine("You have chosen to exit.");
-                        flag = false;
+                        Console.WriteLine("You have chosen option {0}", option, "\n");
+                        NumberGame.NumberGuesser();
+                        flag = true;
+                        break;
+                    case 8:
+                        Console.WriteLine("You have chosen option {0}", option, "\n");
+                        NumberGame.PrimeNumberCheck();
+                        flag = true;
                         break;
                     default:
                         Console.WriteLine("You did not select a valid option.");
+                        flag = false;
                         break;
                 }
             } while (flag);

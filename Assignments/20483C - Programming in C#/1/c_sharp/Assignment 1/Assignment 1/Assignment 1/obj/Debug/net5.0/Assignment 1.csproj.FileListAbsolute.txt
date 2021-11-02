@@ -1,16 +1,31 @@
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.exe
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.deps.json
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.runtimeconfig.json
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.runtimeconfig.dev.json
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.dll
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\ref\Assignment 1.dll
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\bin\Debug\net5.0\Assignment 1.pdb
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.csproj.AssemblyReference.cache
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.AssemblyInfoInputs.cache
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.AssemblyInfo.cs
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.csproj.CoreCompileInputs.cache
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.dll
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\ref\Assignment 1.dll
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.pdb
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment 1\Assignment 1\Assignment 1\obj\Debug\net5.0\Assignment 1.genruntimeconfig.cache
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.exe
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.deps.json
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.runtimeconfig.json
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.runtimeconfig.dev.json
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.dll
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/ref/Assignment 1.dll
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.pdb
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.csproj.AssemblyReference.cache
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.AssemblyInfoInputs.cache
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.AssemblyInfo.cs
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.csproj.CoreCompileInputs.cache
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.dll
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/ref/Assignment 1.dll
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.pdb
+C:/Users/straw/OneDrive/Documents/Coding/MSSA Class/MSSA-Class/CSharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.genruntimeconfig.cache
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.csproj.AssemblyReference.cache
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.AssemblyInfoInputs.cache
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.AssemblyInfo.cs
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.csproj.CoreCompileInputs.cache
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.dll
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/ref/Assignment 1.dll
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.pdb
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.deps.json
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.runtimeconfig.json
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.runtimeconfig.dev.json
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.dll
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/ref/Assignment 1.dll
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/bin/Debug/net5.0/Assignment 1.pdb
+/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/Debug/net5.0/Assignment 1.genruntimeconfig.cache

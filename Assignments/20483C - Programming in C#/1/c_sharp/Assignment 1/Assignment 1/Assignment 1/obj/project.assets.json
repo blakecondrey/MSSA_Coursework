@@ -8,31 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\straw\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/blakecondrey/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Assignment 1\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
+      "projectUniqueName": "/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/Assignment 1.csproj",
       "projectName": "Assignment 1",
-      "projectPath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Assignment 1\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
-      "packagesPath": "C:\\Users\\straw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Assignment 1\\Assignment 1\\Assignment 1\\obj\\",
+      "projectPath": "/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/Assignment 1.csproj",
+      "packagesPath": "/Users/blakecondrey/.nuget/packages/",
+      "outputPath": "/Users/blakecondrey/Documents/SoftwareDev/MSSA/Assignments/20483C - Programming in C#/c_sharp/Assignment 1/Assignment 1/Assignment 1/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\straw\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/blakecondrey/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
