@@ -35,9 +35,17 @@ namespace Assignment_1
                     {
                         Console.WriteLine("Your guess was too high.");
                     }
-                    else
+                    else if (guess < correctNum)
                     {
                         Console.Write("Your guess was too low.");
+                    }
+                    else
+                    {
+                        // guess == correctNum
+                        // increment attempts to reflect in terminal and break
+                        numOfAttempts++;
+                        Console.WriteLine($"\nNice work! You guessed correctly in {numOfAttempts} attempts!");
+                        break;
                     }
                 }
                 catch
@@ -59,6 +67,7 @@ namespace Assignment_1
                 // display to user number of attempts remaining.
                 Console.WriteLine($"\n{allowedAttempts - numOfAttempts} attempts remaining.");
             }
+            
         }
 
         public static bool PrimeNumberCheck()
