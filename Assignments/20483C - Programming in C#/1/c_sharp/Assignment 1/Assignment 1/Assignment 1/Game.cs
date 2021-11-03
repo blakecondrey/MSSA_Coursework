@@ -92,58 +92,106 @@ namespace Assignment_1
             }
         }
 
+        int CaptureMonthInput()
+        {
+            int month;
+            Console.WriteLine("Enter a month by integer value: (e.g. 1 - 12)");
+            month = Convert.ToInt32(Console.ReadLine());
+            return month;
+        }
+
+        int CaptureDayInput()
+        {
+            int day;
+            Console.WriteLine("Enter a day by integer value: (e.g. 1 - 31)");
+            day = Convert.ToInt32(Console.ReadLine());
+            return day;
+        }
+
         public void GetSeason()
         {
-            int CaptureInput()
+
+        string[] months = { "January", "February", "March", "April", "May",
+            "June", "July", "August", "September", "October", "November", "December" };
+
+        int[] days = new int[31];
+        for (int daysIter = 0; daysIter < 31; daysIter++)
+        {
+            days[daysIter] = daysIter;
+        }
+
+        string[] seasons = { "Winter", "Spring", "Summer", "Fall" };
+
+        int monthInYear = CaptureMonthInput();
+        int dayInMonth = CaptureDayInput();
+            )
+        try
+        {
+            if (monthInYear < 1 || monthInYear > 12)
             {
-                int month;
-                Console.WriteLine("Enter a month by integer value: (e.g. 1 - 12)");
-                month = Convert.ToInt32(Console.ReadLine());
-                return month;
-            }
-            string[] months = { "January", "February", "March", "April", "May",
-                "June", "July", "August", "September", "October", "November", "December" };
-
-            string[] seasons = { "Winter", "Spring", "Summer", "Fall" };
-
-            int monthInYear = CaptureInput();
-
-            try
-            {
-                if (monthInYear < 1 || monthInYear > 12)
-                {
-                    GetSeason();
-                }
-
-                switch (monthInYear)
-                {
-                    case 1:
-                    case 2:
-                    case 12:
-                        Console.WriteLine("Season: {0}.", seasons[0]);
-                        break;
-                    case 3:
-                    case 4:
-                    case 5:
-                        Console.WriteLine("Season: {0}.", seasons[1]);
-                        break;
-                    case 6:
-                    case 7:
-                    case 8:
-                        Console.WriteLine("Season: {0}.", seasons[2]);
-                        break;
-                    case 9:
-                    case 10:
-                    case 11:
-                        Console.WriteLine("Season: {0}.", seasons[3]);
-                        break;
-                }
-            }
-            catch (ArgumentOutOfRangeException e)
-            {
-                Console.WriteLine(e.Message);
                 GetSeason();
             }
+            if (dayInMonth < 1 || dayInMonth > 31)
+            {
+                GetSeason();
+            }
+
+            switch (monthInYear)
+            {
+                case 1:
+                case 2:
+                case 12:
+                    Console.WriteLine("Season: {0}.", seasons[0]);
+                    break;
+                case 3:
+                    if (dayInMonth < 20)
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[0]);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[1]);
+                    }
+                    break;
+                case 4:
+                case 5:
+                    Console.WriteLine("Season: {0}.", seasons[1]);
+                    break;
+                case 6:
+                    if (dayInMonth < 20)
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[1]);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[2]);
+                    }
+                    break;
+                case 7:
+                case 8:
+                    Console.WriteLine("Season: {0}.", seasons[2]);
+                    break;
+                case 9:
+                    if (dayInMonth < 22)
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[2]);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Season: {0}.", seasons[3]);
+                    }
+                    break;
+                case 10:
+                case 11:
+                    Console.WriteLine("Season: {0}.", seasons[3]);
+                    break;
+            }
+        }
+        catch (ArgumentOutOfRangeException e)
+        {
+            Console.WriteLine(e.Message);
+            GetSeason();
+        }
         }
     }
 }
